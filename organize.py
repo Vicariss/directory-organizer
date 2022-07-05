@@ -33,5 +33,3 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-directory", type=str)
 args = parser.parse_args()
 dir_to_organize = args.directory
-
-organize(dir_to_organize)
